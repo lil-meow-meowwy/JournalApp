@@ -29,6 +29,23 @@
 		CD667E1F2DB8EB7F00709BAE /* JournalAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JournalAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CD667E4C2DB8F45F00709BAE /* Exceptions for "JournalAppTests" folder in "JournalAppTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				JournalAppUITests.swift,
+			);
+			target = CD667E142DB8EB7F00709BAE /* JournalAppTests */;
+		};
+		CD667E4D2DB8F45F00709BAE /* Exceptions for "JournalAppTests" folder in "JournalAppUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				JournalAppUITests.swift,
+			);
+			target = CD667E1E2DB8EB7F00709BAE /* JournalAppUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		CD667E0A2DB8EB7E00709BAE /* JournalApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -37,6 +54,10 @@
 		};
 		CD667E182DB8EB7F00709BAE /* JournalAppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CD667E4C2DB8F45F00709BAE /* Exceptions for "JournalAppTests" folder in "JournalAppTests" target */,
+				CD667E4D2DB8F45F00709BAE /* Exceptions for "JournalAppTests" folder in "JournalAppUITests" target */,
+			);
 			path = JournalAppTests;
 			sourceTree = "<group>";
 		};

@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import UserNotifications
 
 @main
 struct JournalAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .onAppear {
+                    // Check notification status on app launch
+                    SettingsManager.shared.requestNotificationPermission()
+                }
         }
     }
 }
