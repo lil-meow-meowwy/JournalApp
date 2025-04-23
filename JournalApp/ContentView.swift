@@ -170,7 +170,6 @@ struct JournalEntry: Identifiable, Codable {
     }
 }
 
-
 struct TagList: View {
     let tags: [String]
     
